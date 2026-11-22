@@ -1,0 +1,1966 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>周妍希巴厘岛无圣光_旅行影像品牌_官方原创影像社区</title>
+<meta name="description" content="周妍希巴厘岛无圣光官方网站，专注巴厘岛真实旅行影像与原创内容生态的品牌视频平台，汇集创作者旅行记录、深度访谈与精品影像作品。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e7490'/%3E%3Cpath d='M24 18l24 14-24 14z' fill='%23f7e7c6'/%3E%3C/svg%3E">
+<style>
+:root{
+  --zyx-deep:#0b3c4d;
+  --zyx-teal:#0e7490;
+  --zyx-teal-soft:#17a2b8;
+  --zyx-sand:#f7e7c6;
+  --zyx-amber:#e8a33d;
+  --zyx-ink:#10262e;
+  --zyx-mist:#eef5f6;
+  --zyx-line:#d3e3e6;
+  --zyx-white:#ffffff;
+  --zyx-radius:14px;
+  --zyx-shadow:0 10px 30px rgba(11,60,77,.10);
+  --zyx-shadow-lg:0 18px 46px rgba(11,60,77,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  color:var(--zyx-ink);
+  background:var(--zyx-mist);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+.zyx-shell{width:min(1200px,92vw);margin:0 auto}
+.zyx-anchor-pad{scroll-margin-top:118px}
+
+/* ============ 公告条 ============ */
+.zyx-notice{
+  background:linear-gradient(90deg,var(--zyx-deep),var(--zyx-teal));
+  color:#eaf6f8;
+  font-size:13px;
+  letter-spacing:.02em;
+}
+.zyx-notice-inner{
+  display:flex;align-items:center;gap:12px;
+  padding:9px 0;flex-wrap:wrap;
+}
+.zyx-notice-tag{
+  background:var(--zyx-amber);color:#3a2405;
+  font-weight:700;font-size:12px;padding:2px 9px;border-radius:20px;
+  flex:none;
+}
+.zyx-notice-list{display:flex;gap:26px;flex-wrap:wrap;overflow:hidden}
+.zyx-notice-list li{position:relative;padding-left:14px;opacity:.94}
+.zyx-notice-list li::before{
+  content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:5px;height:5px;border-radius:50%;background:var(--zyx-amber);
+}
+
+/* ============ 页头 ============ */
+.zyx-header-wrap{position:sticky;top:0;z-index:90;box-shadow:0 2px 16px rgba(11,60,77,.08)}
+.zyx-header{
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);
+}
+.zyx-header-inner{
+  display:flex;align-items:center;gap:26px;padding:13px 0;
+}
+.zyx-brand{display:flex;align-items:center;gap:11px;flex:none}
+.zyx-brand-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(140deg,var(--zyx-teal),var(--zyx-deep));
+  display:grid;place-items:center;flex:none;
+  box-shadow:0 6px 16px rgba(14,116,144,.32);
+}
+.zyx-brand-mark svg{width:20px;height:20px}
+.zyx-brand-text strong{
+  display:block;font-size:17px;letter-spacing:.03em;color:var(--zyx-deep);line-height:1.3;
+}
+.zyx-brand-text span{font-size:11px;color:#5d7d86;letter-spacing:.16em}
+.zyx-nav{display:flex;gap:4px;margin-left:6px;flex-wrap:wrap}
+.zyx-nav a{
+  font-size:14px;padding:7px 12px;border-radius:20px;color:#25454f;
+  transition:background .18s,color .18s;white-space:nowrap;
+}
+.zyx-nav a:hover{background:#e3f1f3;color:var(--zyx-teal)}
+.zyx-header-tools{margin-left:auto;display:flex;align-items:center;gap:10px}
+.zyx-search{
+  display:flex;align-items:center;gap:6px;
+  background:#eef5f6;border:1px solid var(--zyx-line);
+  border-radius:22px;padding:5px 6px 5px 14px;transition:border-color .2s,box-shadow .2s;
+}
+.zyx-search:focus-within{border-color:var(--zyx-teal-soft);box-shadow:0 0 0 3px rgba(23,162,184,.14)}
+.zyx-search input{
+  border:none;background:transparent;outline:none;font-size:13px;width:132px;color:var(--zyx-ink);
+}
+.zyx-search button{
+  background:var(--zyx-teal);color:#fff;font-size:12.5px;
+  padding:5px 13px;border-radius:16px;flex:none;transition:background .18s;
+}
+.zyx-search button:hover{background:var(--zyx-deep)}
+.zyx-menu-toggle{
+  display:none;width:40px;height:40px;border-radius:10px;
+  background:#eef5f6;align-items:center;justify-content:center;flex-direction:column;gap:4px;
+}
+.zyx-menu-toggle i{display:block;width:18px;height:2px;background:var(--zyx-deep);border-radius:2px;transition:.22s}
+.zyx-menu-toggle.is-open i:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.zyx-menu-toggle.is-open i:nth-child(2){opacity:0}
+.zyx-menu-toggle.is-open i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.zyx-search-feedback{
+  display:none;font-size:12.5px;color:var(--zyx-deep);
+  background:#fff6e4;border:1px solid #f0d9a8;border-radius:10px;
+  padding:8px 14px;margin-top:10px;
+}
+.zyx-search-feedback.is-show{display:block}
+
+/* ============ 首屏 ============ */
+.zyx-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1100px 420px at 88% -12%,rgba(232,163,61,.22),transparent 62%),
+    linear-gradient(168deg,#0a3341 0%,#0e7490 58%,#128a9e 100%);
+  color:#eaf6f8;padding:64px 0 0;
+}
+.zyx-hero-grid{
+  display:grid;grid-template-columns:1.03fr .97fr;gap:52px;align-items:center;
+}
+.zyx-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);
+  font-size:12.5px;padding:5px 14px;border-radius:20px;letter-spacing:.06em;
+  margin-bottom:20px;
+}
+.zyx-hero-badge b{color:var(--zyx-sand);font-weight:600}
+.zyx-hero h1{
+  font-size:clamp(34px,4.6vw,56px);line-height:1.16;letter-spacing:.01em;
+  font-weight:800;margin-bottom:16px;
+}
+.zyx-hero h1 em{
+  font-style:normal;color:var(--zyx-sand);
+  position:relative;
+}
+.zyx-hero-lead{font-size:15.5px;color:#cfe7ec;max-width:34em;margin-bottom:22px}
+.zyx-hero-intro{
+  font-size:14px;line-height:1.95;color:#bcdbe2;
+  border-left:3px solid var(--zyx-amber);padding-left:16px;margin-bottom:26px;max-width:35em;
+}
+.zyx-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:34px}
+.zyx-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:14px;padding:11px 22px;border-radius:26px;font-weight:600;
+  transition:transform .18s,box-shadow .18s,background .18s;
+}
+.zyx-btn:hover{transform:translateY(-2px)}
+.zyx-btn-primary{background:var(--zyx-amber);color:#3a2405;box-shadow:0 10px 24px rgba(232,163,61,.36)}
+.zyx-btn-primary:hover{background:#f2b455}
+.zyx-btn-ghost{border:1px solid rgba(255,255,255,.42);color:#fff}
+.zyx-btn-ghost:hover{background:rgba(255,255,255,.12)}
+.zyx-hero-stats{display:flex;gap:34px;flex-wrap:wrap;padding-bottom:34px}
+.zyx-hero-stats div strong{display:block;font-size:26px;font-weight:800;color:var(--zyx-sand);line-height:1.2}
+.zyx-hero-stats div span{font-size:12.5px;color:#a9cdd6;letter-spacing:.04em}
+
+.zyx-hero-visual{position:relative}
+.zyx-hero-main{
+  border-radius:20px;overflow:hidden;box-shadow:var(--zyx-shadow-lg);
+  border:1px solid rgba(255,255,255,.24);position:relative;
+}
+.zyx-hero-main svg{display:block;width:100%}
+.zyx-hero-main .zyx-play{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(10,51,65,.05),rgba(10,51,65,.42));
+}
+.zyx-play-btn{
+  width:66px;height:66px;border-radius:50%;
+  background:rgba(255,255,255,.92);display:grid;place-items:center;
+  box-shadow:0 10px 30px rgba(0,0,0,.3);transition:transform .2s;
+}
+.zyx-play-btn:hover{transform:scale(1.08)}
+.zyx-play-btn svg{width:24px;height:24px;margin-left:4px}
+.zyx-hero-float{
+  position:absolute;left:-22px;bottom:-26px;
+  background:#fff;color:var(--zyx-ink);border-radius:14px;
+  padding:13px 17px;box-shadow:var(--zyx-shadow-lg);
+  display:flex;align-items:center;gap:11px;max-width:250px;
+}
+.zyx-hero-float .zyx-dot{
+  width:9px;height:9px;border-radius:50%;background:#17a2b8;flex:none;
+  box-shadow:0 0 0 4px rgba(23,162,184,.2);
+}
+.zyx-hero-float p{font-size:12.5px;line-height:1.5;color:#3d5a63}
+.zyx-hero-float p strong{display:block;color:var(--zyx-deep);font-size:13px}
+.zyx-hero-wave{display:block;width:100%;height:64px;margin-top:44px}
+
+/* ============ 关键词解析 ============ */
+.zyx-section{padding:66px 0}
+.zyx-section-head{max-width:760px;margin-bottom:34px}
+.zyx-eyebrow{
+  font-size:12.5px;letter-spacing:.2em;color:var(--zyx-teal);font-weight:700;
+  display:flex;align-items:center;gap:9px;margin-bottom:10px;
+}
+.zyx-eyebrow::before{content:"";width:22px;height:2px;background:var(--zyx-amber)}
+.zyx-section h2{
+  font-size:clamp(24px,3vw,34px);line-height:1.3;color:var(--zyx-deep);
+  font-weight:800;letter-spacing:.01em;margin-bottom:12px;
+}
+.zyx-section-head p{font-size:14.5px;color:#476a74}
+
+.zyx-about-card{
+  background:#fff;border-radius:var(--zyx-radius);box-shadow:var(--zyx-shadow);
+  padding:38px 40px;border-top:4px solid var(--zyx-teal);
+  columns:2;column-gap:46px;
+}
+.zyx-about-card p{
+  font-size:14.5px;line-height:2;color:#2f4e58;margin-bottom:16px;
+  break-inside:avoid;text-align:justify;
+}
+.zyx-about-card p:first-child::first-letter{
+  font-size:38px;font-weight:800;color:var(--zyx-teal);
+  float:left;line-height:1;padding:4px 10px 0 0;
+}
+.zyx-about-tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px;clear:both}
+.zyx-about-tags span{
+  font-size:12.5px;background:#eaf4f6;color:var(--zyx-teal);
+  padding:5px 14px;border-radius:16px;border:1px solid #cfe7eb;
+}
+
+/* ============ 焦点视频 ============ */
+.zyx-focus-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:22px}
+.zyx-focus-main{
+  background:#fff;border-radius:var(--zyx-radius);overflow:hidden;
+  box-shadow:var(--zyx-shadow);transition:transform .2s,box-shadow .2s;
+}
+.zyx-focus-main:hover{transform:translateY(-4px);box-shadow:var(--zyx-shadow-lg)}
+.zyx-cover{position:relative;overflow:hidden;background:#0b3c4d}
+.zyx-cover svg{width:100%;display:block;transition:transform .35s}
+.zyx-focus-main:hover .zyx-cover svg,.zyx-vcard:hover .zyx-cover svg{transform:scale(1.04)}
+.zyx-cover .zyx-cover-tag{
+  position:absolute;top:12px;left:12px;z-index:2;
+  background:rgba(10,51,65,.72);color:#fff;font-size:11.5px;
+  padding:3px 10px;border-radius:12px;backdrop-filter:blur(4px);
+  letter-spacing:.04em;
+}
+.zyx-cover .zyx-cover-time{
+  position:absolute;right:12px;bottom:12px;z-index:2;
+  background:rgba(10,51,65,.78);color:#fff;font-size:11.5px;
+  padding:2px 9px;border-radius:8px;
+}
+.zyx-cover .zyx-cover-play{
+  position:absolute;inset:0;display:grid;place-items:center;z-index:1;
+  background:linear-gradient(180deg,transparent 40%,rgba(10,51,65,.34));
+}
+.zyx-cover .zyx-cover-play span{
+  width:54px;height:54px;border-radius:50%;
+  background:rgba(255,255,255,.9);display:grid;place-items:center;
+  box-shadow:0 8px 22px rgba(0,0,0,.26);transition:transform .2s;
+}
+.zyx-cover:hover .zyx-cover-play span{transform:scale(1.1)}
+.zyx-cover .zyx-cover-play svg{width:19px;height:19px;margin-left:3px;transform:none!important}
+.zyx-focus-body{padding:20px 24px 22px}
+.zyx-focus-body h3{font-size:19px;color:var(--zyx-deep);margin-bottom:8px;line-height:1.4}
+.zyx-focus-body p{font-size:13.5px;color:#4d6b74;margin-bottom:14px}
+.zyx-focus-meta{display:flex;align-items:center;gap:14px;font-size:12.5px;color:#6b8891;flex-wrap:wrap}
+.zyx-avatar{
+  width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:700;color:#fff;flex:none;
+}
+.zyx-focus-side{display:grid;grid-template-rows:1fr 1fr;gap:22px}
+.zyx-focus-side .zyx-focus-main:last-child{grid-row:auto}
+.zyx-mini-list{display:flex;flex-direction:column;gap:14px}
+.zyx-mini{
+  display:grid;grid-template-columns:112px 1fr;gap:13px;
+  background:#fff;border-radius:12px;padding:10px;box-shadow:var(--zyx-shadow);
+  transition:transform .18s,box-shadow .18s;
+}
+.zyx-mini:hover{transform:translateX(4px);box-shadow:var(--zyx-shadow-lg)}
+.zyx-mini .zyx-cover{border-radius:9px}
+.zyx-mini-title{font-size:13.5px;font-weight:600;color:var(--zyx-deep);line-height:1.45;margin-bottom:6px}
+.zyx-mini-sub{font-size:12px;color:#6b8891}
+.zyx-focus-side-title{
+  font-size:13px;font-weight:700;color:var(--zyx-teal);
+  letter-spacing:.1em;margin-bottom:12px;display:flex;align-items:center;gap:8px;
+}
+.zyx-focus-side-title::after{content:"";flex:1;height:1px;background:var(--zyx-line)}
+
+/* ============ 视频流 ============ */
+.zyx-stream-tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:26px}
+.zyx-chip{
+  font-size:13px;padding:6px 16px;border-radius:18px;
+  background:#fff;border:1px solid var(--zyx-line);color:#456972;
+  transition:.18s;
+}
+.zyx-chip:hover{border-color:var(--zyx-teal-soft);color:var(--zyx-teal)}
+.zyx-chip.is-active{background:var(--zyx-teal);color:#fff;border-color:var(--zyx-teal)}
+.zyx-stream-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:22px;
+}
+.zyx-vcard{
+  background:#fff;border-radius:var(--zyx-radius);overflow:hidden;
+  box-shadow:var(--zyx-shadow);display:flex;flex-direction:column;
+  transition:transform .2s,box-shadow .2s;
+}
+.zyx-vcard:hover{transform:translateY(-5px);box-shadow:var(--zyx-shadow-lg)}
+.zyx-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.zyx-vcard-body h3{font-size:15.5px;color:var(--zyx-deep);line-height:1.45;margin-bottom:7px}
+.zyx-vcard-body p{font-size:13px;color:#54727b;flex:1;margin-bottom:13px}
+.zyx-vtags{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:13px}
+.zyx-vtags span{
+  font-size:11.5px;color:var(--zyx-teal);background:#eaf4f6;
+  padding:2px 10px;border-radius:10px;
+}
+.zyx-vfoot{
+  display:flex;align-items:center;gap:9px;padding-top:12px;
+  border-top:1px dashed var(--zyx-line);font-size:12px;color:#6b8891;
+}
+.zyx-vfoot .zyx-author{font-weight:600;color:#33565f}
+.zyx-vfoot .zyx-actions{margin-left:auto;display:flex;gap:6px}
+.zyx-icon-btn{
+  display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#6b8891;
+  padding:3px 8px;border-radius:12px;transition:.15s;
+}
+.zyx-icon-btn:hover{background:#eef5f6;color:var(--zyx-teal)}
+.zyx-icon-btn.is-liked{color:#e8632c}
+.zyx-icon-btn.is-saved{color:#d1447a}
+.zyx-icon-btn svg{width:14px;height:14px}
+
+/* ============ 专题 ============ */
+.zyx-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.zyx-topic{
+  position:relative;border-radius:var(--zyx-radius);overflow:hidden;
+  box-shadow:var(--zyx-shadow);transition:transform .2s,box-shadow .2s;
+  min-height:216px;display:flex;flex-direction:column;justify-content:flex-end;
+  color:#fff;padding:20px;
+}
+.zyx-topic:hover{transform:translateY(-4px);box-shadow:var(--zyx-shadow-lg)}
+.zyx-topic svg{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.zyx-topic::after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(10,51,65,.06),rgba(10,51,65,.78));
+}
+.zyx-topic > *{position:relative;z-index:2}
+.zyx-topic .zyx-topic-status{
+  align-self:flex-start;font-size:11.5px;background:var(--zyx-amber);color:#3a2405;
+  padding:2px 10px;border-radius:10px;font-weight:700;margin-bottom:auto;
+}
+.zyx-topic h3{font-size:17px;line-height:1.4;margin:12px 0 6px}
+.zyx-topic p{font-size:12.5px;color:#d6e9ec;line-height:1.6}
+
+/* ============ 创作者 ============ */
+.zyx-creators{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
+}
+.zyx-creator{
+  background:#fff;border-radius:var(--zyx-radius);padding:24px 20px;
+  text-align:center;box-shadow:var(--zyx-shadow);cursor:pointer;
+  transition:transform .2s,box-shadow .2s;border:1px solid transparent;
+}
+.zyx-creator:hover{transform:translateY(-5px);box-shadow:var(--zyx-shadow-lg);border-color:#cfe7eb}
+.zyx-creator-ava{
+  width:70px;height:70px;border-radius:50%;margin:0 auto 13px;
+  display:grid;place-items:center;font-size:26px;font-weight:800;color:#fff;
+  box-shadow:0 8px 20px rgba(11,60,77,.18);
+}
+.zyx-creator h3{font-size:15.5px;color:var(--zyx-deep);margin-bottom:4px}
+.zyx-creator .zyx-cr-field{font-size:12px;color:var(--zyx-teal);margin-bottom:10px}
+.zyx-creator p{font-size:12.5px;color:#5a7880;line-height:1.7;margin-bottom:13px}
+.zyx-creator-stats{display:flex;justify-content:center;gap:16px;font-size:11.5px;color:#6b8891}
+.zyx-creator-stats b{display:block;font-size:14px;color:var(--zyx-deep)}
+
+/* ============ 故事区 ============ */
+.zyx-story-wrap{background:#fff;padding:66px 0}
+.zyx-story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.zyx-story{
+  border-radius:var(--zyx-radius);overflow:hidden;background:var(--zyx-mist);
+  border:1px solid var(--zyx-line);transition:transform .2s,box-shadow .2s;
+}
+.zyx-story:hover{transform:translateY(-4px);box-shadow:var(--zyx-shadow-lg)}
+.zyx-story .zyx-cover svg{transition:transform .35s}
+.zyx-story:hover .zyx-cover svg{transform:scale(1.04)}
+.zyx-story-body{padding:18px 20px 20px}
+.zyx-story-body .zyx-story-meta{font-size:11.5px;color:var(--zyx-teal);letter-spacing:.08em;margin-bottom:8px}
+.zyx-story-body h3{font-size:16px;color:var(--zyx-deep);line-height:1.45;margin-bottom:8px}
+.zyx-story-body p{font-size:13px;color:#54727b;line-height:1.8}
+
+/* ============ 评价 ============ */
+.zyx-review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.zyx-review{
+  background:#fff;border-radius:var(--zyx-radius);padding:20px 22px;
+  box-shadow:var(--zyx-shadow);border-left:3px solid var(--zyx-amber);
+  font-size:13.5px;color:#3f5f68;line-height:1.85;
+}
+.zyx-review:nth-child(3n+2){border-left-color:var(--zyx-teal)}
+.zyx-review:nth-child(3n+3){border-left-color:#b98bd0}
+.zyx-review p{margin-bottom:13px}
+.zyx-review-foot{display:flex;align-items:center;gap:9px;font-size:12px;color:#6b8891}
+.zyx-review-foot b{color:#33565f;font-size:12.5px}
+
+/* ============ 动态 ============ */
+.zyx-news-wrap{background:linear-gradient(160deg,#0b3c4d,#0e7490);color:#e7f3f5;padding:66px 0}
+.zyx-news-wrap .zyx-eyebrow{color:var(--zyx-sand)}
+.zyx-news-wrap .zyx-eyebrow::before{background:var(--zyx-amber)}
+.zyx-news-wrap h2{color:#fff}
+.zyx-news-wrap .zyx-section-head p{color:#b4d5dc}
+.zyx-news-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.zyx-news{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);
+  border-radius:12px;padding:18px 20px;display:flex;gap:16px;
+  transition:background .18s;
+}
+.zyx-news:hover{background:rgba(255,255,255,.13)}
+.zyx-news-date{
+  font-size:12px;color:var(--zyx-sand);flex:none;font-weight:700;
+  letter-spacing:.04em;padding-top:2px;
+}
+.zyx-news h3{font-size:14.5px;color:#fff;margin-bottom:5px;line-height:1.45}
+.zyx-news p{font-size:12.5px;color:#b4d5dc;line-height:1.7}
+
+/* ============ FAQ ============ */
+.zyx-faq-list{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.zyx-faq-list details{
+  background:#fff;border-radius:12px;border:1px solid var(--zyx-line);
+  padding:14px 18px;box-shadow:var(--zyx-shadow);transition:border-color .18s;
+}
+.zyx-faq-list details[open]{border-color:var(--zyx-teal-soft)}
+.zyx-faq-list summary{
+  font-size:14px;font-weight:600;color:var(--zyx-deep);cursor:pointer;
+  list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.zyx-faq-list summary::-webkit-details-marker{display:none}
+.zyx-faq-list summary::after{
+  content:"+";font-size:19px;color:var(--zyx-teal);font-weight:400;flex:none;transition:transform .2s;
+}
+.zyx-faq-list details[open] summary::after{transform:rotate(45deg)}
+.zyx-faq-list details p{font-size:13px;color:#4d6b74;line-height:1.85;margin-top:11px}
+
+/* ============ 联系 ============ */
+.zyx-contact-wrap{background:#fff;padding:66px 0}
+.zyx-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.zyx-contact-info h3{font-size:20px;color:var(--zyx-deep);margin-bottom:12px}
+.zyx-contact-info p{font-size:14px;color:#4d6b74;line-height:1.9;margin-bottom:20px}
+.zyx-contact-rows{display:flex;flex-direction:column;gap:13px}
+.zyx-contact-row{display:flex;gap:12px;align-items:flex-start;font-size:13.5px;color:#33565f}
+.zyx-contact-row span.zyx-ci{
+  width:34px;height:34px;border-radius:10px;background:#eaf4f6;color:var(--zyx-teal);
+  display:grid;place-items:center;flex:none;
+}
+.zyx-contact-row span.zyx-ci svg{width:16px;height:16px}
+.zyx-contact-row b{display:block;color:var(--zyx-deep);font-size:13px}
+.zyx-form{
+  background:var(--zyx-mist);border-radius:var(--zyx-radius);padding:26px;
+  border:1px solid var(--zyx-line);
+}
+.zyx-form h3{font-size:16px;color:var(--zyx-deep);margin-bottom:16px}
+.zyx-form label{display:block;font-size:12.5px;color:#456972;margin-bottom:6px}
+.zyx-form input,.zyx-form textarea{
+  width:100%;border:1px solid var(--zyx-line);border-radius:9px;
+  padding:10px 12px;font-size:13.5px;font-family:inherit;color:var(--zyx-ink);
+  background:#fff;outline:none;transition:border-color .18s;margin-bottom:14px;
+}
+.zyx-form input:focus,.zyx-form textarea:focus{border-color:var(--zyx-teal-soft)}
+.zyx-form textarea{resize:vertical;min-height:84px}
+.zyx-form .zyx-btn-primary{width:100%;justify-content:center}
+.zyx-form-tip{font-size:12px;color:#6b8891;margin-top:11px;text-align:center}
+
+/* ============ 页脚 ============ */
+.zyx-footer{background:#082a35;color:#a9c8d0;padding:52px 0 26px;font-size:13px}
+.zyx-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;margin-bottom:36px}
+.zyx-footer .zyx-brand-text strong{color:#fff}
+.zyx-footer .zyx-brand-text span{color:#7ea6b1}
+.zyx-footer p.zyx-footer-desc{font-size:12.5px;line-height:1.9;color:#8fb4bd;margin-top:16px;max-width:30em}
+.zyx-footer h4{font-size:13.5px;color:#fff;margin-bottom:13px;letter-spacing:.04em}
+.zyx-footer ul{display:flex;flex-direction:column;gap:8px}
+.zyx-footer ul a{font-size:12.5px;color:#91b6c0;transition:color .18s}
+.zyx-footer ul a:hover{color:var(--zyx-sand)}
+.zyx-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.12);padding-top:20px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:11.5px;color:#7ea6b1;
+}
+.zyx-footer-bottom a{color:#9dc0c9}
+.zyx-footer-bottom a:hover{color:var(--zyx-sand)}
+
+/* ============ 悬浮按钮 / Toast ============ */
+.zyx-backtop{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:50%;
+  background:var(--zyx-teal);color:#fff;display:grid;place-items:center;
+  box-shadow:0 10px 24px rgba(14,116,144,.4);z-index:80;
+  opacity:0;visibility:hidden;transform:translateY(12px);
+  transition:opacity .25s,visibility .25s,transform .25s,background .18s;
+}
+.zyx-backtop.is-show{opacity:1;visibility:visible;transform:translateY(0)}
+.zyx-backtop:hover{background:var(--zyx-deep)}
+.zyx-backtop svg{width:20px;height:20px}
+.zyx-toast{
+  position:fixed;left:50%;bottom:42px;transform:translate(-50%,16px);
+  background:rgba(11,60,77,.95);color:#fff;font-size:13px;
+  padding:11px 22px;border-radius:24px;z-index:200;
+  opacity:0;visibility:hidden;transition:.28s;box-shadow:0 12px 30px rgba(0,0,0,.28);
+  max-width:86vw;text-align:center;
+}
+.zyx-toast.is-show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+/* ============ 弹窗 ============ */
+.zyx-modal{
+  position:fixed;inset:0;z-index:150;display:grid;place-items:center;padding:20px;
+  background:rgba(8,42,53,.62);opacity:0;visibility:hidden;transition:.25s;
+}
+.zyx-modal.is-show{opacity:1;visibility:visible}
+.zyx-modal-card{
+  background:#fff;border-radius:18px;max-width:440px;width:100%;
+  padding:28px;box-shadow:var(--zyx-shadow-lg);transform:translateY(14px) scale(.98);
+  transition:.25s;position:relative;max-height:86vh;overflow:auto;
+}
+.zyx-modal.is-show .zyx-modal-card{transform:none}
+.zyx-modal-close{
+  position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:50%;
+  background:#eef5f6;color:#456972;display:grid;place-items:center;font-size:17px;
+}
+.zyx-modal-close:hover{background:#e0edef;color:var(--zyx-deep)}
+.zyx-modal-card h3{font-size:18px;color:var(--zyx-deep);margin-bottom:6px;padding-right:30px}
+.zyx-modal-card .zyx-modal-sub{font-size:12.5px;color:#6b8891;margin-bottom:16px}
+.zyx-modal-card p{font-size:13.5px;color:#456972;line-height:1.85;margin-bottom:12px}
+.zyx-modal-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.zyx-modal-tags span{
+  font-size:12px;background:#eaf4f6;color:var(--zyx-teal);
+  padding:4px 12px;border-radius:12px;
+}
+.zyx-share-row{display:flex;gap:10px;flex-wrap:wrap}
+.zyx-share-row button{
+  flex:1;min-width:92px;font-size:13px;padding:10px 8px;border-radius:10px;
+  background:#eef5f6;color:#33565f;border:1px solid var(--zyx-line);transition:.16s;
+}
+.zyx-share-row button:hover{background:var(--zyx-teal);color:#fff;border-color:var(--zyx-teal)}
+
+/* ============ 响应式 ============ */
+@media (max-width:1000px){
+  .zyx-hero-grid{grid-template-columns:1fr;gap:36px}
+  .zyx-focus-grid{grid-template-columns:1fr}
+  .zyx-stream-grid{grid-template-columns:repeat(2,1fr)}
+  .zyx-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .zyx-creators{grid-template-columns:repeat(2,1fr)}
+  .zyx-story-grid{grid-template-columns:1fr 1fr}
+  .zyx-review-grid{grid-template-columns:1fr 1fr}
+  .zyx-footer-grid{grid-template-columns:1fr 1fr}
+  .zyx-about-card{columns:1;padding:28px}
+}
+@media (max-width:760px){
+  .zyx-notice-list{display:none}
+  .zyx-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:#fff;flex-direction:column;padding:12px 16px 18px;gap:2px;
+    box-shadow:0 14px 26px rgba(11,60,77,.14);border-top:1px solid var(--zyx-line);
+  }
+  .zyx-nav.is-open{display:flex}
+  .zyx-header-inner{position:relative;gap:12px;padding:11px 0}
+  .zyx-menu-toggle{display:flex}
+  .zyx-search input{width:96px}
+  .zyx-header-tools{margin-left:auto}
+  .zyx-stream-grid{grid-template-columns:1fr}
+  .zyx-topic-grid{grid-template-columns:1fr}
+  .zyx-story-grid{grid-template-columns:1fr}
+  .zyx-review-grid{grid-template-columns:1fr}
+  .zyx-creators{grid-template-columns:1fr 1fr}
+  .zyx-news-list{grid-template-columns:1fr}
+  .zyx-faq-list{grid-template-columns:1fr}
+  .zyx-contact-grid{grid-template-columns:1fr;gap:26px}
+  .zyx-footer-grid{grid-template-columns:1fr;gap:26px}
+  .zyx-hero{padding-top:44px}
+  .zyx-hero-float{left:8px;bottom:-18px}
+  .zyx-section{padding:48px 0}
+  .zyx-story-wrap,.zyx-news-wrap,.zyx-contact-wrap{padding:48px 0}
+  .zyx-about-card{padding:22px}
+}
+@media (max-width:480px){
+  .zyx-creators{grid-template-columns:1fr}
+  .zyx-hero-stats{gap:22px}
+  .zyx-hero-actions .zyx-btn{flex:1;justify-content:center}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 公告条 -->
+<div class="zyx-notice">
+  <div class="zyx-shell zyx-notice-inner">
+    <span class="zyx-notice-tag">官方发布</span>
+    <ul class="zyx-notice-list">
+      <li>《周妍希巴厘岛无圣光》清晨海岸纪实篇章已上线，共 4 支正片</li>
+      <li>2026 秋冬季「岛屿光影计划」创作者报名通道已开启</li>
+      <li>影像素材高清下载专区新增 26 组巴厘岛实拍片段</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 页头 -->
+<div class="zyx-header-wrap">
+  <header class="zyx-header">
+    <div class="zyx-shell zyx-header-inner">
+      <a href="#zyx-top" class="zyx-brand" aria-label="周妍希巴厘岛无圣光官方首页">
+        <span class="zyx-brand-mark">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 6l11 6-11 6z" fill="#f7e7c6"/></svg>
+        </span>
+        <span class="zyx-brand-text">
+          <strong>周妍希·岛屿影像</strong>
+          <span>BALI RAW LIGHT</span>
+        </span>
+      </a>
+
+      <nav class="zyx-nav" id="zyx-nav">
+        <a href="#zyx-top">首页</a>
+        <a href="#zyx-about">影像解析</a>
+        <a href="#zyx-focus">焦点视频</a>
+        <a href="#zyx-stream">热门内容</a>
+        <a href="#zyx-topic">专题企划</a>
+        <a href="#zyx-creators">创作者</a>
+        <a href="#zyx-news">企业动态</a>
+        <a href="#zyx-faq">帮助</a>
+        <a href="#zyx-contact">联系</a>
+      </nav>
+
+      <div class="zyx-header-tools">
+        <div class="zyx-search">
+          <input type="search" id="zyx-search-input" placeholder="搜索影像 / 创作者" aria-label="站内搜索">
+          <button type="button" id="zyx-search-btn">搜索</button>
+        </div>
+        <button class="zyx-menu-toggle" id="zyx-menu-toggle" aria-label="展开导航" aria-expanded="false">
+          <i></i><i></i><i></i>
+        </button>
+      </div>
+    </div>
+    <div class="zyx-shell">
+      <div class="zyx-search-feedback" id="zyx-search-feedback"></div>
+    </div>
+  </header>
+</div>
+
+<!-- 首屏 -->
+<section class="zyx-hero" id="zyx-top">
+  <div class="zyx-shell">
+    <div class="zyx-hero-grid">
+      <div>
+        <span class="zyx-hero-badge">官方网站 · <b>企业级原创影像品牌</b></span>
+        <h1>周妍希巴厘岛无圣光</h1>
+        <p class="zyx-hero-lead">以真实自然光记录岛屿的呼吸感，做有质感、有温度的旅行影像内容生态。</p>
+        <p class="zyx-hero-intro">作为国内垂直旅行影像领域持续运营的品牌平台，我们坚持原创、正版、高清的内容标准，为创作者与企业提供值得信赖的展示与协作空间，让每一帧画面都保留现场的光。</p>
+        <div class="zyx-hero-actions">
+          <a href="#zyx-focus" class="zyx-btn zyx-btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M8 5l12 7-12 7z" fill="currentColor"/></svg>
+            进入焦点影像
+          </a>
+          <a href="#zyx-creators" class="zyx-btn zyx-btn-ghost">认识创作者</a>
+          <a href="#zyx-contact" class="zyx-btn zyx-btn-ghost">合作与投稿</a>
+        </div>
+        <div class="zyx-hero-stats">
+          <div><strong>1,280+</strong><span>原创影像作品</span></div>
+          <div><strong>46</strong><span>签约创作者</span></div>
+          <div><strong>3,200万</strong><span>累计播放量</span></div>
+        </div>
+      </div>
+
+      <div class="zyx-hero-visual">
+        <div class="zyx-hero-main">
+          <svg viewBox="0 0 640 360" role="img" aria-label="巴厘岛清晨海岸自然光航拍影像封面">
+            <defs>
+              <linearGradient id="zyxSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#ffd9a3"/><stop offset=".48" stop-color="#f6a97a"/><stop offset="1" stop-color="#7c5ba6"/>
+              </linearGradient>
+              <linearGradient id="zyxSea" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#1b7f96"/><stop offset="1" stop-color="#0b3c4d"/>
+              </linearGradient>
+              <linearGradient id="zyxSand" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#f3dfba"/><stop offset="1" stop-color="#e0c190"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#zyxSky)"/>
+            <circle cx="470" cy="94" r="44" fill="#fff2cd" opacity=".92"/>
+            <path d="M0 190 Q120 160 250 186 T640 168 V360 H0Z" fill="url(#zyxSea)"/>
+            <path d="M0 258 Q150 236 320 254 T640 240 V360 H0Z" fill="#0a2f3c" opacity=".72"/>
+            <path d="M0 300 Q170 278 350 298 T640 284 V360 H0Z" fill="url(#zyxSand)"/>
+            <g opacity=".85" fill="#0b3c4d">
+              <path d="M96 268 q-8-36 4-58 q12 22 4 58z"/>
+              <rect x="92" y="266" width="18" height="4" rx="2"/>
+              <path d="M142 274 q-9-42 5-66 q13 24 5 66z"/>
+              <rect x="138" y="272" width="18" height="4" rx="2"/>
+              <path d="M520 262 q-8-34 4-54 q11 20 4 54z"/>
+              <rect x="516" y="260" width="17" height="4" rx="2"/>
+            </g>
+            <g opacity=".55" stroke="#ffe9c4" stroke-width="2" fill="none">
+              <path d="M0 214 Q160 200 320 212 T640 204"/>
+              <path d="M0 232 Q170 220 340 230 T640 222"/>
+            </g>
+            <g fill="#fff" opacity=".7">
+              <circle cx="210" cy="88" r="2"/><circle cx="262" cy="66" r="1.6"/><circle cx="330" cy="86" r="1.8"/>
+            </g>
+            <g opacity=".9">
+              <ellipse cx="318" cy="316" rx="26" ry="5" fill="#a8804a" opacity=".32"/>
+              <path d="M310 300 q8-16 16 0 q4 12-8 16 q-12-4-8-16z" fill="#2b5566"/>
+              <circle cx="318" cy="292" r="6" fill="#3d6b7c"/>
+            </g>
+          </svg>
+          <div class="zyx-play">
+            <a href="#zyx-focus" class="zyx-play-btn" aria-label="进入焦点影像">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M8 5l12 7-12 7z" fill="#0e7490"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="zyx-hero-float">
+          <span class="zyx-dot"></span>
+          <p><strong>无圣光 · 自然光纪事</strong>清晨 5:40 的海岸，一支不补光的现场影像</p>
+        </div>
+      </div>
+    </div>
+    <svg class="zyx-hero-wave" viewBox="0 0 1440 64" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 34 Q180 4 360 30 T720 32 T1080 28 T1440 36 V64 H0Z" fill="#eef5f6"/>
+    </svg>
+  </div>
+</section>
+
+<!-- 关键词解析 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-about">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">影像定位与深度解析</div>
+      <h2>一个坚持自然光纪事的旅行影像品牌</h2>
+      <p>我们把「周妍希巴厘岛无圣光」当作一套长期运营的内容方法论，而不是一次性的拍摄项目。</p>
+    </div>
+    <div class="zyx-about-card">
+      <p>「周妍希巴厘岛无圣光」是我们品牌自 2021 年起持续更新的核心影像系列。它的出发点非常朴素：在巴厘岛这样被大量商业拍摄反复消费的目的地里，能不能有一组影像，既不依赖巨大的人工灯阵，也不依赖过度的后期调色，而是把清晨六点的海雾、午后稻田上的反光、傍晚寺庙前逐渐沉下去的天色如实地保留下来。这个系列之所以被命名为「无圣光」，是因为我们主动放弃了传统旅拍里常见的补光逻辑，把光线的解释权交还给岛屿本身。</p>
+      <p>作为深耕旅行影像垂直领域的品牌，我们组建了由导演、摄影、录音、剪辑和内容运营构成的常驻小组，围绕巴厘岛及周边岛屿建立了稳定的拍摄与素材协作网络。所有上线的影像作品都经过内容审核、版权登记和画质校验三道流程，确保用户看到的是正版、高清、可追溯的精品内容。企业的内容生态并非只是作品堆叠，而是由拍摄手记、创作者访谈、器材与光线解析、路线攻略共同支撑的完整知识结构。</p>
+      <p>我们把「真实」视为最重要的品牌资产。所谓无圣光，不是拒绝美感，而是拒绝用虚假的光去掩盖现场。因此每一支影像都保留了环境音、现场风速和不完美的取景抖动，甚至保留拍摄者踩在沙滩上的呼吸声。很多用户告诉我们，正是这些细节让他们相信画面里发生的事情是真的。这种信任，是任何流量技巧都换不来的口碑基础。</p>
+      <p>在内容结构上，我们分为四条主线：第一条是「岛屿纪事」，以长镜头与环境声记录海岸、稻田、集市与宗教仪式的日常；第二条是「创作者对谈」，邀请在地摄影师、民宿主理人、冲浪教练讲述他们在岛上的生活选择；第三条是「实用攻略」，把交通、器材防护、潮汐时间、拍摄点位等经验整理成可复用的方法；第四条是「品牌故事」，记录团队从三个人到四十余人的成长路径，以及我们对社会责任的理解。</p>
+      <p>我们相信，一个值得信赖的影像平台，必须同时具备审美判断力与运营耐力。为此，团队每季度都会复盘内容数据与用户反馈，把表现不佳的选题公开讨论，把用户反复提出的问题整理进帮助中心。我们也在持续完善创作者扶持计划，为新人提供拍摄设备借用、后期协作与分发支持，让更多有想法的人可以完整地完成一支作品，而不是停留在手机里的一段草稿。</p>
+      <p>「周妍希巴厘岛无圣光」并不试图定义巴厘岛，它只是提供一种看待岛屿的方式：放慢、靠近、少一点表演。我们把这个系列做成可被持续访问的官方网站内容库，是为了让五年后、十年后仍然有人能点开它，看到 2026 年某一天清晨，海面确实是这样亮的。这种长期主义，正是我们作为企业最想传递的东西。</p>
+      <div class="zyx-about-tags">
+        <span>原创正版</span><span>高清画质</span><span>自然光纪事</span><span>内容生态</span>
+        <span>创作者扶持</span><span>持续运营</span><span>品牌故事</span><span>官方发布</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 焦点视频 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-focus" style="padding-top:0">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">焦点视频</div>
+      <h2>本周值得完整看完的影像</h2>
+      <p>由编辑部从近期官方发布与创作者投稿中挑选，兼顾现场感与信息密度。</p>
+    </div>
+
+    <div class="zyx-focus-grid">
+      <article class="zyx-focus-main">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 640 360" role="img" aria-label="巴厘岛清晨海岸无圣光长镜头主视觉">
+            <defs>
+              <linearGradient id="zyxF1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#bfe0e8"/><stop offset=".55" stop-color="#6fb3c4"/><stop offset="1" stop-color="#217d93"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#zyxF1)"/>
+            <circle cx="150" cy="80" r="34" fill="#fff6dd" opacity=".86"/>
+            <path d="M0 210 Q140 178 280 206 T640 190 V360 H0Z" fill="#155f75"/>
+            <path d="M0 262 Q160 240 330 258 T640 246 V360 H0Z" fill="#0b3c4d"/>
+            <path d="M0 312 Q180 292 380 310 T640 298 V360 H0Z" fill="#e6cfa6"/>
+            <g stroke="#d9f1f4" stroke-width="2" fill="none" opacity=".6">
+              <path d="M0 232 Q150 216 320 230 T640 220"/>
+              <path d="M0 250 Q170 236 340 248 T640 240"/>
+            </g>
+            <g fill="#0c4252">
+              <path d="M470 250 q-10-46 6-72 q15 26 6 72z"/>
+              <rect x="466" y="248" width="18" height="5" rx="2"/>
+              <path d="M530 258 q-9-40 5-62 q13 22 5 62z"/>
+              <rect x="526" y="256" width="17" height="5" rx="2"/>
+            </g>
+            <g opacity=".85">
+              <path d="M300 318 q-4-22 14-30 q18 8 14 30z" fill="#2d6072"/>
+              <circle cx="314" cy="282" r="7" fill="#3b7488"/>
+            </g>
+          </svg>
+          <span class="zyx-cover-tag">官方原创 · 岛屿纪事</span>
+          <span class="zyx-cover-time">18:42</span>
+          <div class="zyx-cover-play"><span><svg viewBox="0 0 24 24" fill="none"><path d="M8 5l12 7-12 7z" fill="#0e7490"/></svg></span></div>
+        </div>
+        <div class="zyx-focus-body">
+          <h3>清晨 5:40 的巴厘岛：一支不补光的长镜头</h3>
+          <p>从东海岸的潮线出发，跟随拍摄组走完日出前四十分钟。没有灯，没有滤镜，只有海风、浪线和逐渐亮起来的天空。</p>
+          <div class="zyx-focus-meta">
+            <span class="zyx-avatar" style="background:#0e7490">周</span>
+            <span>周妍希影像工作室</span>
+            <span>·</span><span>2026-11-14</span>
+            <span>·</span><span>12.8 万次播放</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="zyx-focus-side">
+        <div>
+          <div class="zyx-focus-side-title">同期推荐</div>
+          <div class="zyx-mini-list">
+            <article class="zyx-mini">
+              <div class="zyx-cover">
+                <svg viewBox="0 0 224 126" role="img" aria-label="乌布稻田午后光影记录封面">
+                  <rect width="224" height="126" fill="#cfe6c4"/>
+                  <path d="M0 74 Q56 58 112 72 T224 66 V126 H0Z" fill="#5f9c58"/>
+                  <path d="M0 96 Q60 82 120 94 T224 88 V126 H0Z" fill="#39744a"/>
+                  <g stroke="#f3e6b4" stroke-width="2" opacity=".8">
+                    <path d="M20 82 l6-18"/><path d="M60 88 l6-20"/><path d="M110 84 l6-19"/><path d="M160 90 l6-20"/>
+                  </g>
+                  <circle cx="184" cy="30" r="15" fill="#fff3c8" opacity=".9"/>
+                </svg>
+                <span class="zyx-cover-time">09:15</span>
+              </div>
+              <div>
+                <div class="zyx-mini-title">乌布稻田的午后反光，为什么值得多等二十分钟</div>
+                <div class="zyx-mini-sub">光线解析 · 林野</div>
+              </div>
+            </article>
+            <article class="zyx-mini">
+              <div class="zyx-cover">
+                <svg viewBox="0 0 224 126" role="img" aria-label="巴厘岛集市环境声采集幕后封面">
+                  <rect width="224" height="126" fill="#f0cfa0"/>
+                  <rect y="70" width="224" height="56" fill="#8a5a33"/>
+                  <g fill="#5c3a20">
+                    <rect x="18" y="40" width="34" height="40" rx="4"/><rect x="66" y="32" width="34" height="48" rx="4"/>
+                    <rect x="114" y="44" width="34" height="36" rx="4"/><rect x="162" y="36" width="34" height="44" rx="4"/>
+                  </g>
+                  <g fill="#f6e3bf" opacity=".9">
+                    <circle cx="35" cy="58" r="4"/><circle cx="83" cy="54" r="4"/><circle cx="131" cy="60" r="4"/><circle cx="179" cy="56" r="4"/>
+                  </g>
+                </svg>
+                <span class="zyx-cover-time">11:08</span>
+              </div>
+              <div>
+                <div class="zyx-mini-title">集市里的声音采集：一支录音笔如何还原现场</div>
+                <div class="zyx-mini-sub">创作幕后 · 阿舟</div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div>
+          <div class="zyx-focus-side-title">新晋精品</div>
+          <div class="zyx-mini-list">
+            <article class="zyx-mini">
+              <div class="zyx-cover">
+                <svg viewBox="0 0 224 126" role="img" aria-label="冲浪教练人物访谈封面">
+                  <rect width="224" height="126" fill="#7fc3d4"/>
+                  <path d="M0 78 Q60 62 120 76 T224 70 V126 H0Z" fill="#1f6f88"/>
+                  <path d="M0 100 Q70 88 140 100 T224 94 V126 H0Z" fill="#0d4b60"/>
+                  <ellipse cx="118" cy="86" rx="42" ry="8" fill="#f0dba9" opacity=".9"/>
+                  <path d="M110 86 q8-26 16 0z" fill="#2b5c6e"/>
+                  <circle cx="118" cy="58" r="8" fill="#3c7386"/>
+                </svg>
+                <span class="zyx-cover-time">14:26</span>
+              </div>
+              <div>
+                <div class="zyx-mini-title">在岛上教了九年冲浪，他怎么看旅行的意义</div>
+                <div class="zyx-mini-sub">人物访谈 · 苏禾</div>
+              </div>
+            </article>
+            <article class="zyx-mini">
+              <div class="zyx-cover">
+                <svg viewBox="0 0 224 126" role="img" aria-label="海边民宿主理人日常记录封面">
+                  <rect width="224" height="126" fill="#e8d7bd"/>
+                  <rect y="82" width="224" height="44" fill="#c4a67f"/>
+                  <path d="M30 82 V46 h44 v36z" fill="#f5efe2"/>
+                  <path d="M24 46 L52 26 L80 46z" fill="#a8613c"/>
+                  <rect x="44" y="58" width="16" height="24" fill="#7f9ba0"/>
+                  <path d="M150 82 V54 h40 v28z" fill="#f5efe2"/>
+                  <path d="M144 54 L170 36 L196 54z" fill="#a8613c"/>
+                  <rect x="164" y="64" width="14" height="18" fill="#7f9ba0"/>
+                </svg>
+                <span class="zyx-cover-time">07:34</span>
+              </div>
+              <div>
+                <div class="zyx-mini-title">把民宿开在稻田边：一位主理人的三年日记</div>
+                <div class="zyx-mini-sub">日常记录 · 陈述</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 热门视频流 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-stream" style="padding-top:0">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">热门内容</div>
+      <h2>社区正在讨论的影像与经验</h2>
+      <p>标签可筛选。所有内容均来自官方发布与签约创作者投稿，经审核后上线。</p>
+    </div>
+
+    <div class="zyx-stream-tabs" id="zyx-stream-tabs">
+      <button class="zyx-chip is-active" data-filter="all" type="button">全部</button>
+      <button class="zyx-chip" data-filter="纪实" type="button">纪实</button>
+      <button class="zyx-chip" data-filter="攻略" type="button">攻略</button>
+      <button class="zyx-chip" data-filter="访谈" type="button">访谈</button>
+      <button class="zyx-chip" data-filter="幕后" type="button">幕后</button>
+    </div>
+
+    <div class="zyx-stream-grid" id="zyx-stream-grid">
+
+      <article class="zyx-vcard" data-cat="纪实">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="巴厘岛海神庙日落自然光纪实封面">
+            <defs><linearGradient id="zyxS1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffcf9c"/><stop offset=".6" stop-color="#e08a72"/><stop offset="1" stop-color="#5f4472"/></linearGradient></defs>
+            <rect width="360" height="203" fill="url(#zyxS1)"/>
+            <circle cx="86" cy="70" r="26" fill="#fff0c8" opacity=".85"/>
+            <path d="M0 132 Q90 112 180 130 T360 122 V203 H0Z" fill="#2a5a6c"/>
+            <path d="M0 162 Q100 148 200 160 T360 154 V203 H0Z" fill="#123c4c"/>
+            <g fill="#0b2b36">
+              <path d="M240 130 l10-44 l10 44z"/><path d="M266 130 l8-32 l8 32z"/>
+              <rect x="234" y="128" width="50" height="6" rx="2"/>
+            </g>
+            <g fill="#f4e3bb" opacity=".9"><circle cx="300" cy="46" r="2"/><circle cx="322" cy="70" r="1.6"/></g>
+          </svg>
+          <span class="zyx-cover-tag">纪实</span><span class="zyx-cover-time">16:05</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>海神庙日落：等一个没有游客的三十秒</h3>
+          <p>拍摄组连续蹲守四天，记录潮水退去时礁石上那一刻的安静。</p>
+          <div class="zyx-vtags"><span>日落</span><span>自然光</span><span>海岸</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#c96a3b">林</span>
+            <span class="zyx-author">林野</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">1.2k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="攻略">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="巴厘岛拍摄点位路线图封面">
+            <rect width="360" height="203" fill="#e3efe2"/>
+            <path d="M0 150 Q90 120 180 148 T360 132 V203 H0Z" fill="#9dc79a"/>
+            <path d="M0 178 Q110 158 220 176 T360 164 V203 H0Z" fill="#6fa06d"/>
+            <g stroke="#e8a33d" stroke-width="3" fill="none" stroke-dasharray="7 6">
+              <path d="M40 60 Q120 96 186 70 T318 88"/>
+            </g>
+            <g fill="#0e7490"><circle cx="40" cy="60" r="6"/><circle cx="186" cy="70" r="6"/><circle cx="318" cy="88" r="6"/></g>
+            <g fill="#fdf6e6"><circle cx="40" cy="60" r="2.4"/><circle cx="186" cy="70" r="2.4"/><circle cx="318" cy="88" r="2.4"/></g>
+          </svg>
+          <span class="zyx-cover-tag">攻略</span><span class="zyx-cover-time">10:22</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>七个少人知道的拍摄点位与最佳到达时间</h3>
+          <p>从东岸到北部山村，含潮汐、停车、步行时长与器材防护建议。</p>
+          <div class="zyx-vtags"><span>点位</span><span>路线</span><span>潮汐</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#0e7490">苏</span>
+            <span class="zyx-author">苏禾</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">886</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="访谈">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="巴厘岛在地摄影师对谈封面">
+            <rect width="360" height="203" fill="#dcd2ea"/>
+            <circle cx="118" cy="96" r="42" fill="#b79ad4"/>
+            <circle cx="118" cy="82" r="15" fill="#f2ede4"/>
+            <path d="M92 140 q26-30 52 0z" fill="#f2ede4"/>
+            <circle cx="248" cy="96" r="42" fill="#8fb9c9"/>
+            <circle cx="248" cy="82" r="15" fill="#f2ede4"/>
+            <path d="M222 140 q26-30 52 0z" fill="#f2ede4"/>
+            <rect x="172" y="92" width="16" height="3" rx="2" fill="#7a6a90"/>
+          </svg>
+          <span class="zyx-cover-tag">访谈</span><span class="zyx-cover-time">22:47</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>对谈：在地摄影师眼中的岛屿与表演性旅行</h3>
+          <p>关于拍摄伦理、社区关系，以及为什么他不再接过度摆拍的商单。</p>
+          <div class="zyx-vtags"><span>对谈</span><span>伦理</span><span>在地</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#8a67b0">周</span>
+            <span class="zyx-author">周妍希影像工作室</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">2.4k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="幕后">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="无圣光拍摄器材与现场幕后封面">
+            <rect width="360" height="203" fill="#2b3d47"/>
+            <rect x="0" y="150" width="360" height="53" fill="#1b2b33"/>
+            <g fill="#5c7a86">
+              <rect x="60" y="70" width="72" height="52" rx="6"/>
+              <circle cx="96" cy="96" r="16" fill="#0f1d23"/><circle cx="96" cy="96" r="8" fill="#7fa8b5"/>
+              <rect x="132" y="86" width="26" height="36" rx="4"/>
+            </g>
+            <g fill="#e8a33d"><rect x="196" y="56" width="70" height="64" rx="6" opacity=".9"/><rect x="206" y="66" width="50" height="44" rx="4" fill="#0f1d23"/></g>
+            <g fill="#7fa8b5"><rect x="286" y="96" width="46" height="26" rx="4"/><rect x="300" y="80" width="18" height="16" rx="3"/></g>
+            <g stroke="#e8a33d" stroke-width="1.6" opacity=".55" fill="none">
+              <path d="M196 120 l-24 30"/><path d="M266 120 l30 30"/>
+            </g>
+          </svg>
+          <span class="zyx-cover-tag">幕后</span><span class="zyx-cover-time">13:19</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>不带灯也能拍：我们的现场器材清单与取舍</h3>
+          <p>三机位、两支定焦、一台录音机，解释每一件装备为什么留下。</p>
+          <div class="zyx-vtags"><span>器材</span><span>幕后</span><span>取舍</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#33606e">阿</span>
+            <span class="zyx-author">阿舟</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">1.7k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="纪实">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="北部村落清晨生活纪实封面">
+            <rect width="360" height="203" fill="#cfe2ec"/>
+            <path d="M0 118 Q80 88 180 114 T360 100 V203 H0Z" fill="#6ca1a8"/>
+            <path d="M0 156 Q100 134 210 152 T360 142 V203 H0Z" fill="#3a727d"/>
+            <g fill="#22464f">
+              <path d="M60 118 l30-26 l30 26z"/><rect x="72" y="118" width="36" height="34"/>
+              <path d="M200 124 l26-22 l26 22z"/><rect x="210" y="124" width="32" height="30"/>
+            </g>
+            <g stroke="#f4f8f2" stroke-width="2" opacity=".7"><path d="M40 168 h60"/><path d="M230 168 h70"/></g>
+            <ellipse cx="164" cy="178" rx="22" ry="4" fill="#2b5560" opacity=".4"/>
+            <path d="M158 168 q6-12 12 0z" fill="#f2e6c9"/>
+          </svg>
+          <span class="zyx-cover-tag">纪实</span><span class="zyx-cover-time">08:56</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>北部村落的早晨：不被打扰的日常四十分钟</h3>
+          <p>我们只是安静地站在路口，记录人们如何开始自己的一天。</p>
+          <div class="zyx-vtags"><span>村落</span><span>日常</span><span>纪录</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#4d8a94">陈</span>
+            <span class="zyx-author">陈述</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">742</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="攻略">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="雨季器材防潮实用技巧封面">
+            <rect width="360" height="203" fill="#b9d4dd"/>
+            <g stroke="#e9f6f9" stroke-width="2.4" opacity=".85">
+              <path d="M40 20 l-8 22"/><path d="M90 44 l-8 22"/><path d="M150 14 l-8 22"/><path d="M214 40 l-8 22"/><path d="M280 18 l-8 22"/><path d="M326 48 l-8 22"/>
+            </g>
+            <rect x="86" y="88" width="90" height="66" rx="8" fill="#33565f"/>
+            <circle cx="131" cy="121" r="20" fill="#0f2128"/><circle cx="131" cy="121" r="10" fill="#6fa3b0"/>
+            <rect x="196" y="102" width="66" height="52" rx="6" fill="#e8a33d" opacity=".9"/>
+            <rect x="208" y="114" width="42" height="28" rx="3" fill="#33565f"/>
+            <path d="M0 168 Q100 152 200 166 T360 158 V203 H0Z" fill="#7ba7b3"/>
+          </svg>
+          <span class="zyx-cover-tag">攻略</span><span class="zyx-cover-time">09:41</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>雨季设备防护：五件小物让器材少出故障</h3>
+          <p>来自连续三季雨季拍摄的实战经验，含干燥剂、密封袋与擦拭顺序。</p>
+          <div class="zyx-vtags"><span>防潮</span><span>器材</span><span>雨季</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#2f6b78">林</span>
+            <span class="zyx-author">林野</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">1.05k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="幕后">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="调色台前的取舍影像幕后封面">
+            <rect width="360" height="203" fill="#202c36"/>
+            <rect x="36" y="40" width="150" height="94" rx="8" fill="#e3b98c"/>
+            <path d="M36 112 Q90 92 150 108 V134 H36Z" fill="#8a5c46"/>
+            <circle cx="80" cy="70" r="16" fill="#fff2c9" opacity=".8"/>
+            <g fill="#3a5564">
+              <rect x="212" y="56" width="112" height="8" rx="4"/><rect x="212" y="76" width="86" height="8" rx="4"/>
+              <rect x="212" y="96" width="100" height="8" rx="4"/><rect x="212" y="116" width="66" height="8" rx="4"/>
+            </g>
+            <g fill="#e8a33d"><circle cx="324" cy="60" r="6"/><circle cx="298" cy="80" r="6"/><circle cx="312" cy="100" r="6"/><circle cx="278" cy="120" r="6"/></g>
+            <rect x="36" y="152" width="288" height="33" rx="6" fill="#2e3f4b"/>
+            <g fill="#7fa8b5"><rect x="52" y="162" width="40" height="6" rx="3"/><rect x="106" y="162" width="26" height="6" rx="3"/><rect x="146" y="162" width="52" height="6" rx="3"/></g>
+          </svg>
+          <span class="zyx-cover-tag">幕后</span><span class="zyx-cover-time">15:37</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>调色台前：为什么我们不加那层暖橙滤镜</h3>
+          <p>对比六个版本后，团队最终选择保留原本偏冷的日光色温。</p>
+          <div class="zyx-vtags"><span>调色</span><span>色彩</span><span>取舍</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#8a67b0">周</span>
+            <span class="zyx-author">周妍希影像工作室</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">1.9k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="纪实">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="海滩清理公益行动影像封面">
+            <rect width="360" height="203" fill="#9fd0d9"/>
+            <path d="M0 128 Q90 112 180 126 T360 118 V203 H0Z" fill="#2f7f92"/>
+            <path d="M0 162 Q110 148 220 160 T360 152 V203 H0Z" fill="#e6d3ad"/>
+            <g fill="#4d8a94">
+              <circle cx="96" cy="146" r="8"/><rect x="90" y="154" width="12" height="20" rx="5"/>
+              <circle cx="180" cy="150" r="8"/><rect x="174" y="158" width="12" height="20" rx="5"/>
+              <circle cx="258" cy="146" r="8"/><rect x="252" y="154" width="12" height="20" rx="5"/>
+            </g>
+            <g fill="#8a6c48"><rect x="120" y="166" width="14" height="8" rx="2"/><rect x="204" y="172" width="10" height="6" rx="2"/></g>
+            <ellipse cx="176" cy="186" rx="26" ry="4" fill="#c0a97f" opacity=".6"/>
+          </svg>
+          <span class="zyx-cover-tag">纪实</span><span class="zyx-cover-time">06:48</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>把海滩还给海：一次没有媒体机的清理行动</h3>
+          <p>品牌志愿者小组与在地社区合作，记录一个上午的净滩过程。</p>
+          <div class="zyx-vtags"><span>公益</span><span>社区</span><span>责任</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#3f8d76">陈</span>
+            <span class="zyx-author">陈述</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">3.1k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+      <article class="zyx-vcard" data-cat="访谈">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 203" role="img" aria-label="独立纪录片导演访谈封面">
+            <rect width="360" height="203" fill="#f0d6cd"/>
+            <circle cx="152" cy="88" r="38" fill="#b06a55" opacity=".85"/>
+            <circle cx="152" cy="76" r="14" fill="#fbe9dd"/>
+            <path d="M124 130 q28-28 56 0z" fill="#fbe9dd"/>
+            <g fill="#7a4436">
+              <rect x="222" y="60" width="86" height="7" rx="3.5"/><rect x="222" y="80" width="66" height="7" rx="3.5"/>
+              <rect x="222" y="100" width="78" height="7" rx="3.5"/><rect x="222" y="120" width="48" height="7" rx="3.5"/>
+            </g>
+            <rect y="164" width="360" height="39" fill="#c99884" opacity=".7"/>
+          </svg>
+          <span class="zyx-cover-tag">访谈</span><span class="zyx-cover-time">26:12</span>
+        </div>
+        <div class="zyx-vcard-body">
+          <h3>独立导演访谈：一部纪录片需要多少耐心</h3>
+          <p>他用两年拍一条渔村，聊素材取舍、资金困境与持续拍摄的动力。</p>
+          <div class="zyx-vtags"><span>纪录片</span><span>坚持</span><span>创作</span></div>
+          <div class="zyx-vfoot">
+            <span class="zyx-avatar" style="background:#b06a55">苏</span>
+            <span class="zyx-author">苏禾</span>
+            <span class="zyx-actions">
+              <button class="zyx-icon-btn zyx-like" type="button" aria-label="点赞">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 20s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg>
+                <span class="zyx-like-count">1.4k</span>
+              </button>
+              <button class="zyx-icon-btn zyx-save" type="button" aria-label="收藏">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4h12v17l-6-4.2L6 21z" stroke="currentColor" stroke-width="1.7"/></svg>
+              </button>
+            </span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- 专题企划 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-topic" style="padding-top:0">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">专题企划</div>
+      <h2>正在进行的长期影像项目</h2>
+      <p>专题由品牌编辑部策划，联合在地创作者共同完成，持续更新中。</p>
+    </div>
+    <div class="zyx-topic-grid">
+      <a href="#zyx-stream" class="zyx-topic">
+        <svg viewBox="0 0 400 240" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="zyxT1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6b97a"/><stop offset="1" stop-color="#a2462c"/></linearGradient></defs>
+          <rect width="400" height="240" fill="url(#zyxT1)"/>
+          <circle cx="312" cy="66" r="34" fill="#fff3d0" opacity=".8"/>
+          <path d="M0 158 Q100 138 200 154 T400 146 V240 H0Z" fill="#6b2f1e" opacity=".6"/>
+          <g stroke="#ffe2b8" stroke-width="2" fill="none" opacity=".7"><path d="M0 182 Q130 166 260 180 T400 174"/></g>
+        </svg>
+        <span class="zyx-topic-status">更新至第 9 集</span>
+        <h3>岛屿纪事 · 第三季</h3>
+        <p>以自然光与长镜头记录巴厘岛海岸、稻田与村落的日常变化，每两周更新一集。</p>
+      </a>
+      <a href="#zyx-creators" class="zyx-topic">
+        <svg viewBox="0 0 400 240" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="zyxT2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f9c8f"/><stop offset="1" stop-color="#123c4c"/></linearGradient></defs>
+          <rect width="400" height="240" fill="url(#zyxT2)"/>
+          <g fill="#d7ece4" opacity=".85">
+            <circle cx="96" cy="86" r="20"/><circle cx="200" cy="112" r="16"/><circle cx="300" cy="80" r="22"/>
+          </g>
+          <g stroke="#d7ece4" stroke-width="2" opacity=".5" fill="none">
+            <path d="M96 106 v42"/><path d="M200 128 v40"/><path d="M300 102 v48"/>
+          </g>
+        </svg>
+        <span class="zyx-topic-status">报名进行中</span>
+        <h3>创作者共创计划 · 秋季</h3>
+        <p>面向旅行影像创作者的扶持项目，提供器材支持、后期协作与官方发布渠道。</p>
+      </a>
+      <a href="#zyx-faq" class="zyx-topic">
+        <svg viewBox="0 0 400 240" preserveAspectRatio="none" aria-hidden="true">
+          <defs><linearGradient id="zyxT3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b8bc4"/><stop offset="1" stop-color="#3c2f5e"/></linearGradient></defs>
+          <rect width="400" height="240" fill="url(#zyxT3)"/>
+          <g fill="#efe8ff" opacity=".9">
+            <rect x="60" y="120" width="70" height="70" rx="6"/><rect x="164" y="100" width="70" height="90" rx="6"/><rect x="268" y="132" width="70" height="58" rx="6"/>
+          </g>
+          <g fill="#4b3a72"><rect x="72" y="136" width="46" height="6" rx="3"/><rect x="176" y="116" width="46" height="6" rx="3"/><rect x="280" y="148" width="46" height="6" rx="3"/></g>
+        </svg>
+        <span class="zyx-topic-status">持续更新</span>
+        <h3>无圣光工作法 · 教程专题</h3>
+        <p>从测光、机位到环境声采集，把自然光拍摄的经验整理成可复用的方法。</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 创作者矩阵 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-creators" style="padding-top:0">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">创作者矩阵</div>
+      <h2>和我们一起持续产出的人</h2>
+      <p>点击卡片可查看创作者简介与擅长领域。签约创作者均经过内容与版权审核。</p>
+    </div>
+    <div class="zyx-creators" id="zyx-creator-grid">
+      <article class="zyx-creator" data-name="周妍希" data-field="导演 / 自然光纪事" data-desc="品牌主理人，长期关注旅行影像中的真实表达，主张减少人工干预，让现场自己说话。">
+        <div class="zyx-creator-ava" style="background:linear-gradient(140deg,#0e7490,#0b3c4d)">周</div>
+        <h3>周妍希</h3>
+        <div class="zyx-cr-field">导演 / 自然光纪事</div>
+        <p>品牌主理人，主张减少人工干预，让现场自己说话。</p>
+        <div class="zyx-creator-stats"><div><b>126</b>作品</div><div><b>18.4万</b>关注</div></div>
+      </article>
+      <article class="zyx-creator" data-name="林野" data-field="摄影 / 光线解析" data-desc="擅长在强逆光与低照度环境下完成拍摄，负责品牌多支海岸影像的摄影与测光方案。">
+        <div class="zyx-creator-ava" style="background:linear-gradient(140deg,#c96a3b,#8a3f1f)">林</div>
+        <h3>林野</h3>
+        <div class="zyx-cr-field">摄影 / 光线解析</div>
+        <p>擅长强逆光与低照度拍摄，负责多支海岸影像的测光方案。</p>
+        <div class="zyx-creator-stats"><div><b>94</b>作品</div><div><b>12.7万</b>关注</div></div>
+      </article>
+      <article class="zyx-creator" data-name="苏禾" data-field="访谈 / 人物记录" data-desc="长期进行在地人物访谈，关注旅行背后的生活选择与社区关系，作品以长对谈形式呈现。">
+        <div class="zyx-creator-ava" style="background:linear-gradient(140deg,#8a67b0,#4d3a6e)">苏</div>
+        <h3>苏禾</h3>
+        <div class="zyx-cr-field">访谈 / 人物记录</div>
+        <p>长期进行在地人物访谈，关注旅行背后的生活选择与社区关系。</p>
+        <div class="zyx-creator-stats"><div><b>78</b>作品</div><div><b>9.6万</b>关注</div></div>
+      </article>
+      <article class="zyx-creator" data-name="阿舟" data-field="录音 / 后期剪辑" data-desc="负责现场环境声采集与声音设计，坚持保留拍摄时的真实环境音，让影像更有现场质感。">
+        <div class="zyx-creator-ava" style="background:linear-gradient(140deg,#33606e,#123c4c)">舟</div>
+        <h3>阿舟</h3>
+        <div class="zyx-cr-field">录音 / 后期剪辑</div>
+        <p>负责现场环境声采集与声音设计，坚持保留真实环境音。</p>
+        <div class="zyx-creator-stats"><div><b>66</b>作品</div><div><b>7.2万</b>关注</div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 故事随笔 -->
+<section class="zyx-story-wrap zyx-anchor-pad" id="zyx-story">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">拍摄手记</div>
+      <h2>影像之外，我们写下的字</h2>
+      <p>每一支片子背后都有没被剪进去的部分，这里把它们留下来。</p>
+    </div>
+    <div class="zyx-story-grid">
+      <article class="zyx-story">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 190" role="img" aria-label="凌晨四点出发拍摄手记配图">
+            <rect width="360" height="190" fill="#1c3344"/>
+            <circle cx="292" cy="42" r="20" fill="#f4e6bf" opacity=".9"/>
+            <g fill="#f4e6bf" opacity=".65"><circle cx="60" cy="40" r="2"/><circle cx="110" cy="60" r="1.6"/><circle cx="180" cy="34" r="2"/><circle cx="230" cy="58" r="1.6"/></g>
+            <path d="M0 128 Q90 110 180 124 T360 118 V190 H0Z" fill="#0d2430"/>
+            <path d="M0 154 Q110 142 220 152 T360 148 V190 H0Z" fill="#081a22"/>
+            <g fill="#e8a33d"><rect x="140" y="118" width="26" height="16" rx="3" opacity=".92"/><path d="M166 122 l10-6 v12 l-10-6z" opacity=".92"/></g>
+          </svg>
+        </div>
+        <div class="zyx-story-body">
+          <div class="zyx-story-meta">拍摄手记 · 2026-11-11</div>
+          <h3>凌晨四点出发，是为了不错过天空变亮的那三分钟</h3>
+          <p>那天风很大，三脚架被吹倒了两次。我们在车里等到最后一刻，才迎来想要的颜色。</p>
+        </div>
+      </article>
+      <article class="zyx-story">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 190" role="img" aria-label="与在地居民交流的手记配图">
+            <rect width="360" height="190" fill="#e6ddc9"/>
+            <rect y="130" width="360" height="60" fill="#c3ad8b"/>
+            <g fill="#8a6a48"><rect x="46" y="72" width="80" height="58" rx="5"/><rect x="150" y="60" width="80" height="70" rx="5"/><rect x="254" y="78" width="70" height="52" rx="5"/></g>
+            <g fill="#f3e9d4"><rect x="58" y="84" width="56" height="14" rx="3"/><rect x="162" y="72" width="56" height="14" rx="3"/><rect x="266" y="90" width="46" height="14" rx="3"/></g>
+            <g fill="#5c4530"><circle cx="86" cy="118" r="6"/><circle cx="190" cy="112" r="6"/><circle cx="288" cy="118" r="6"/></g>
+          </svg>
+        </div>
+        <div class="zyx-story-body">
+          <div class="zyx-story-meta">在地观察 · 2026-10-28</div>
+          <h3>拍摄前，我们先去和邻居打了三次招呼</h3>
+          <p>镜头进入一个社区之前，先要获得理解。这是我们所有在地项目的第一条规矩。</p>
+        </div>
+      </article>
+      <article class="zyx-story">
+        <div class="zyx-cover">
+          <svg viewBox="0 0 360 190" role="img" aria-label="剪辑室深夜复盘的手记配图">
+            <rect width="360" height="190" fill="#26333d"/>
+            <rect x="40" y="46" width="180" height="102" rx="7" fill="#3c5260"/>
+            <rect x="52" y="58" width="156" height="78" rx="4" fill="#e2b183"/>
+            <path d="M52 112 Q110 96 168 108 V136 H52Z" fill="#8a5c46"/>
+            <circle cx="90" cy="80" r="12" fill="#fff2c9" opacity=".8"/>
+            <g fill="#5c7a86"><rect x="238" y="64" width="82" height="7" rx="3.5"/><rect x="238" y="82" width="62" height="7" rx="3.5"/><rect x="238" y="100" width="72" height="7" rx="3.5"/></g>
+            <rect x="40" y="156" width="280" height="18" rx="5" fill="#33474f"/>
+            <rect x="52" y="161" width="120" height="7" rx="3.5" fill="#e8a33d"/>
+          </svg>
+        </div>
+        <div class="zyx-story-body">
+          <div class="zyx-story-meta">团队复盘 · 2026-10-09</div>
+          <h3>一个镜头剪掉二十七次之后，我们决定承认它不成立</h3>
+          <p>复盘会开到深夜，最后大家同意：不是所有拍到的画面都值得被留下来。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 用户评价 -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-reviews">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">社区口碑</div>
+      <h2>来自观众与创作者的真实反馈</h2>
+      <p>以下留言来自站内评论区与创作者后台，经授权整理展示。</p>
+    </div>
+    <div class="zyx-review-grid">
+      <article class="zyx-review">
+        <p>看了清晨那支长镜头，第一次觉得海浪声比配乐更抓人。整支片子没有炫技，但每一帧都站得住。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#0e7490">叶</span><b>叶知秋</b><span>· 观众</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>作为同行，最打动我的是他们真的把灯收起来了。做减法比做加法难得多，这一点很值得学。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#c96a3b">郑</span><b>郑文山</b><span>· 摄影师</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>雨季防潮那期帮我救回了一台机器。内容写得很细，连擦拭顺序都交代了，是认真做过功课的攻略。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#4d8a94">何</span><b>何小满</b><span>· 旅行博主</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>我比较在意版权问题，这里的作品都标了出处和授权信息，作为商用参考也放心，这点很加分。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#8a67b0">罗</span><b>罗一鸣</b><span>· 品牌策划</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>投稿流程比想象中简单，审核回复也快，还给了具体的修改建议，不是那种模板拒绝信。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#3f8d76">唐</span><b>唐小舟</b><span>· 新人创作者</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>人物访谈那几支看得很慢，因为讲的东西值得停下来想一想。很少见到内容站愿意留这么长的对话。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#b06a55">温</span><b>温然</b><span>· 观众</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>关注两年了，从设备很简陋到现在的画面质感，能看出这个平台在持续运营，不是做一波就走。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#2f6b78">顾</span><b>顾迟</b><span>· 老用户</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>带孩子一起看的村落记录，他问了很多问题。比起拍得漂亮，我更感谢它拍得诚实。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#7f8f5c">简</span><b>简宁</b><span>· 家长观众</span></div>
+      </article>
+      <article class="zyx-review">
+        <p>合作过一次联合企划，对接流程清楚，素材授权写得明白，沟通效率比不少大公司还高。</p>
+        <div class="zyx-review-foot"><span class="zyx-avatar" style="background:#a26b8e">秦</span><b>秦朗</b><span>· 合作机构</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 企业动态 -->
+<section class="zyx-news-wrap zyx-anchor-pad" id="zyx-news">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">企业动态</div>
+      <h2>官方发布与内容更新</h2>
+      <p>品牌、企划、社区与技术支持相关的公开信息都会在这里同步。</p>
+    </div>
+    <div class="zyx-news-list">
+      <article class="zyx-news">
+        <div class="zyx-news-date">11 / 14</div>
+        <div>
+          <h3>《岛屿纪事》第三季第 9 集正式上线</h3>
+          <p>本期以清晨海岸为主题，完整保留现场环境声，高清版本同步在品牌内容库开放。</p>
+        </div>
+      </article>
+      <article class="zyx-news">
+        <div class="zyx-news-date">11 / 08</div>
+        <div>
+          <h3>秋季创作者扶持计划开放报名</h3>
+          <p>面向旅行影像创作者，提供器材借用、后期协作与官方发布支持，报名截止 12 月 20 日。</p>
+        </div>
+      </article>
+      <article class="zyx-news">
+        <div class="zyx-news-date">10 / 30</div>
+        <div>
+          <h3>素材下载专区新增 26 组实拍片段</h3>
+          <p>包含海岸、稻田、集市与环境声四类素材，均已标注授权范围，支持正版商用。</p>
+        </div>
+      </article>
+      <article class="zyx-news">
+        <div class="zyx-news-date">10 / 21</div>
+        <div>
+          <h3>品牌与在地社区完成第二次净滩协作</h3>
+          <p>志愿者小组与社区共同完成海岸清理，并记录为公益影像，践行企业社会责任。</p>
+        </div>
+      </article>
+      <article class="zyx-news">
+        <div class="zyx-news-date">10 / 09</div>
+        <div>
+          <h3>内容审核与版权登记流程升级</h3>
+          <p>新增画质校验环节，所有上线作品需完成版权信息登记，进一步保障创作者权益。</p>
+        </div>
+      </article>
+      <article class="zyx-news">
+        <div class="zyx-news-date">09 / 26</div>
+        <div>
+          <h3>帮助中心新增八条常见问题</h3>
+          <p>涵盖投稿、授权、下载与账号相关说明，用户反馈较多的问题已同步更新到帮助页。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="zyx-section zyx-anchor-pad" id="zyx-faq">
+  <div class="zyx-shell">
+    <div class="zyx-section-head">
+      <div class="zyx-eyebrow">帮助中心</div>
+      <h2>常见问题</h2>
+      <p>如果没有找到答案，可以通过页面底部的联系入口给我们留言。</p>
+    </div>
+    <div class="zyx-faq-list">
+      <details open>
+        <summary>「无圣光」具体指什么？</summary>
+        <p>它指的是拍摄时不使用人工补光灯与大型灯阵，尽量依靠现场自然光完成画面。我们希望保留现场真实的光线关系，而不是用灯光重新布置一个场景。</p>
+      </details>
+      <details>
+        <summary>站内影像可以用于商用吗？</summary>
+        <p>标注为「正版商用」的作品可在授权范围内使用，具体以作品详情页的授权说明为准。未标注的作品仅限个人观看与分享，如需商用请通过联系入口提交申请。</p>
+      </details>
+      <details>
+        <summary>如何向平台投稿？</summary>
+        <p>通过页面底部联系表单提交作品链接与简介即可，编辑部会在五个工作日内回复。通过初审的作品会收到具体的修改建议与上线时间安排。</p>
+      </details>
+      <details>
+        <summary>高清素材下载有什么要求？</summary>
+        <p>下载专区面向注册创作者与企业合作伙伴开放。素材均标注授权范围与使用限制，下载前请阅读对应说明，避免超出授权使用。</p>
+      </details>
+      <details>
+        <summary>创作者扶持计划如何报名？</summary>
+        <p>每季度开放一次报名，需提交两支以上完整作品与创作说明。入选创作者可获得器材借用、后期协作与官方发布渠道支持。</p>
+      </details>
+      <details>
+        <summary>内容更新频率是怎样的？</summary>
+        <p>核心专题每两周更新一集，社区投稿根据审核进度持续上线。企业动态与帮助中心内容按实际进展同步更新。</p>
+      </details>
+      <details>
+        <summary>发现内容问题如何反馈？</summary>
+        <p>可以在作品页面使用反馈入口，或通过联系表单说明具体问题。我们会对版权、内容准确性等问题进行核实并处理。</p>
+      </details>
+      <details>
+        <summary>平台是否接受品牌联合企划？</summary>
+        <p>接受。我们与旅行、户外、影像器材等领域的品牌保持合作，联合企划需提前沟通内容方向与授权范围，确保与平台调性一致。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 联系 / 投稿 -->
+<section class="zyx-contact-wrap zyx-anchor-pad" id="zyx-contact">
+  <div class="zyx-shell">
+    <div class="zyx-contact-grid">
+      <div class="zyx-contact-info">
+        <h3>合作、投稿与内容授权</h3>
+        <p>无论你是想投稿一支作品、申请素材授权，还是希望与我们进行品牌联合企划，都欢迎通过下面的方式联系。我们更愿意和认真做事的人长期合作。</p>
+        <div class="zyx-contact-rows">
+          <div class="zyx-contact-row">
+            <span class="zyx-ci"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <div><b>内容合作邮箱</b>studio@islandrawlight.cn</div>
+          </div>
+          <div class="zyx-contact-row">
+            <span class="zyx-ci"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H9l-5 4z" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <div><b>投稿与反馈</b>工作日 10:00 - 18:00 内回复</div>
+          </div>
+          <div class="zyx-contact-row">
+            <span class="zyx-ci"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="10" r="6" stroke="currentColor" stroke-width="1.7"/><path d="M12 16v5M8 21h8" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <div><b>办公地址</b>印度尼西亚 · 巴厘岛登巴萨影像协作站</div>
+          </div>
+          <div class="zyx-contact-row">
+            <span class="zyx-ci"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.4-9-8.5C1.3 8 3.2 4.5 6.7 4.5c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.5 0 5.4 3.5 3.7 7-2 4.1-9 8.5-9 8.5z" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <div><b>分享与收藏</b>点击作品卡片上的图标即可操作</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="zyx-form" id="zyx-contact-form">
+        <h3>留下你的信息</h3>
+        <label for="zyx-form-name">称呼</label>
+        <input id="zyx-form-name" type="text" placeholder="怎么称呼你" required>
+        <label for="zyx-form-contact">联系方式</label>
+        <input id="zyx-form-contact" type="text" placeholder="邮箱或常用联系方式" required>
+        <label for="zyx-form-msg">想聊什么</label>
+        <textarea id="zyx-form-msg" placeholder="投稿作品链接、合作方向或具体问题" required></textarea>
+        <button type="submit" class="zyx-btn zyx-btn-primary">提交信息</button>
+        <p class="zyx-form-tip">提交后会显示确认提示，我们会在工作日内与你联系。</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="zyx-footer">
+  <div class="zyx-shell">
+    <div class="zyx-footer-grid">
+      <div>
+        <a href="#zyx-top" class="zyx-brand">
+          <span class="zyx-brand-mark">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M8 6l11 6-11 6z" fill="#f7e7c6"/></svg>
+          </span>
+          <span class="zyx-brand-text">
+            <strong>周妍希·岛屿影像</strong>
+            <span>BALI RAW LIGHT</span>
+          </span>
+        </a>
+        <p class="zyx-footer-desc">周妍希巴厘岛无圣光官方网站 · 专注自然光旅行影像的原创内容平台，持续为创作者与企业提供值得信赖的展示与协作空间。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#zyx-focus">焦点视频</a></li>
+          <li><a href="#zyx-stream">热门内容</a></li>
+          <li><a href="#zyx-topic">专题企划</a></li>
+          <li><a href="#zyx-story">拍摄手记</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#zyx-creators">创作者矩阵</a></li>
+          <li><a href="#zyx-reviews">社区口碑</a></li>
+          <li><a href="#zyx-news">企业动态</a></li>
+          <li><a href="#zyx-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#zyx-about">品牌解析</a></li>
+          <li><a href="#zyx-contact">合作联系</a></li>
+          <li><a href="#zyx-contact">投稿入口</a></li>
+          <li><a href="#zyx-top">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="zyx-footer-bottom">
+      <span>© 2021 - 2026 周妍希·岛屿影像 官方网站 · 版权所有 · 持续运营中</span>
+      <span>企业内容备案号 BALI-RAW-2026-0119 · 本站影像均为原创正版</span>
+    </div>
+  </div>
+</footer>
+
+<button class="zyx-backtop" id="zyx-backtop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<div class="zyx-toast" id="zyx-toast" role="status" aria-live="polite"></div>
+
+<!-- 创作者弹窗 -->
+<div class="zyx-modal" id="zyx-creator-modal">
+  <div class="zyx-modal-card">
+    <button class="zyx-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="zyx-cm-name">创作者</h3>
+    <div class="zyx-modal-sub" id="zyx-cm-field">领域</div>
+    <p id="zyx-cm-desc">简介</p>
+    <div class="zyx-modal-tags">
+      <span>官方签约</span><span>内容已审核</span><span>作品正版</span>
+    </div>
+    <div class="zyx-share-row">
+      <button type="button" data-share="wechat">分享至微信</button>
+      <button type="button" data-share="weibo">分享至微博</button>
+      <button type="button" data-copy>复制主页链接</button>
+    </div>
+  </div>
+</div>
+
+<!-- 分享弹窗 -->
+<div class="zyx-modal" id="zyx-share-modal">
+  <div class="zyx-modal-card">
+    <button class="zyx-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3>分享这支影像</h3>
+    <div class="zyx-modal-sub" id="zyx-share-title">周妍希巴厘岛无圣光</div>
+    <p>把喜欢的内容分享给同样关注旅行影像的朋友，也可以先复制链接保存。</p>
+    <div class="zyx-share-row">
+      <button type="button" data-share="wechat">微信</button>
+      <button type="button" data-share="weibo">微博</button>
+      <button type="button" data-share="qq">QQ</button>
+      <button type="button" data-copy>复制链接</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toast = document.getElementById('zyx-toast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toast.classList.remove('is-show');
+    }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var menuBtn = document.getElementById('zyx-menu-toggle');
+  var nav = document.getElementById('zyx-nav');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      menuBtn.classList.toggle('is-open', open);
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        menuBtn.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  /* 搜索前端反馈 */
+  var searchInput = document.getElementById('zyx-search-input');
+  var searchBtn = document.getElementById('zyx-search-btn');
+  var searchFeedback = document.getElementById('zyx-search-feedback');
+  var searchIndex = [
+    '清晨海岸无圣光长镜头 纪实',
+    '乌布稻田午后光影 光线解析',
+    '巴厘岛拍摄点位与到达时间 攻略',
+    '在地摄影师对谈 访谈',
+    '现场器材清单与取舍 幕后',
+    '雨季设备防护 攻略',
+    '海神庙日落纪实 纪实',
+    '创作者扶持计划 报名'
+  ];
+  function runSearch(){
+    if(!searchInput || !searchFeedback) return;
+    var kw = searchInput.value.trim();
+    if(!kw){
+      searchFeedback.textContent = '请输入关键词，例如：自然光、稻田、点位、访谈。';
+      searchFeedback.classList.add('is-show');
+      return;
+    }
+    var hits = searchIndex.filter(function(item){
+      return item.indexOf(kw) > -1;
+    });
+    if(hits.length){
+      searchFeedback.textContent = '找到 ' + hits.length + ' 条相关内容：' + hits.join('；') + '。';
+    }else{
+      searchFeedback.textContent = '暂未匹配「' + kw + '」相关内容，可尝试更换关键词或浏览热门内容。';
+    }
+    searchFeedback.classList.add('is-show');
+  }
+  if(searchBtn) searchBtn.addEventListener('click', runSearch);
+  if(searchInput){
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+    });
+    searchInput.addEventListener('input', function(){
+      if(searchFeedback) searchFeedback.classList.remove('is-show');
+    });
+  }
+
+  /* 标签筛选 */
+  var tabs = document.getElementById('zyx-stream-tabs');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#zyx-stream-grid .zyx-vcard'));
+  if(tabs){
+    tabs.addEventListener('click', function(e){
+      var btn = e.target.closest('.zyx-chip');
+      if(!btn) return;
+      Array.prototype.forEach.call(tabs.querySelectorAll('.zyx-chip'), function(c){
+        c.classList.remove('is-active');
+      });
+      btn.classList.add('is-active');
+      var f = btn.getAttribute('data-filter');
+      cards.forEach(function(card){
+        var show = (f === 'all') || (card.getAttribute('data-cat') === f);
+        card.style.display = show ? '' : 'none';
+      });
+      showToast('已筛选：' + (f === 'all' ? '全部内容' : f));
+    });
+  }
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('.zyx-like');
+    if(likeBtn){
+      e.preventDefault();
+      var cnt = likeBtn.querySelector('.zyx-like-count');
+      var liked = likeBtn.classList.toggle('is-liked');
+      var svg = likeBtn.querySelector('svg path');
+      if(svg) svg.setAttribute('fill', liked ? 'currentColor' : 'none');
+      if(cnt){
+        var raw = cnt.textContent.replace(/[^\d.]/g,'');
+        var num = parseFloat(raw) || 0;
+        var unit = cnt.textContent.indexOf('k') > -1 ? 'k' : (cnt.textContent.indexOf('万') > -1 ? '万' : '');
+        num = liked ? num + 0.1 : Math.max(0, num - 0.1);
+        cnt.textContent = (unit === '万' ? num.toFixed(1) : (num < 10 ? num.toFixed(1) : Math.round(num))) + unit;
+      }
+      showToast(liked ? '已点赞，感谢支持' : '已取消点赞');
+      return;
+    }
+
+    var saveBtn = e.target.closest('.zyx-save');
+    if(saveBtn){
+      e.preventDefault();
+      var saved = saveBtn.classList.toggle('is-saved');
+      var sp = saveBtn.querySelector('svg path');
+      if(sp) sp.setAttribute('fill', saved ? 'currentColor' : 'none');
+      showToast(saved ? '已收藏，可在个人中心查看' : '已取消收藏');
+      return;
+    }
+
+    var shareTrigger = e.target.closest('[data-open-share]');
+    if(shareTrigger){
+      e.preventDefault();
+      var t = shareTrigger.getAttribute('data-open-share');
+      var titleEl = document.getElementById('zyx-share-title');
+      if(titleEl) titleEl.textContent = t || '周妍希巴厘岛无圣光';
+      openModal('zyx-share-modal');
+      return;
+    }
+  });
+
+  /* 弹窗控制 */
+  var lastFocus = null;
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(!m) return;
+    lastFocus = document.activeElement;
+    m.classList.add('is-show');
+    document.body.style.overflow = 'hidden';
+    var c = m.querySelector('.zyx-modal-close');
+    if(c) c.focus();
+  }
+  function closeAllModals(){
+    Array.prototype.forEach.call(document.querySelectorAll('.zyx-modal.is-show'), function(m){
+      m.classList.remove('is-show');
+    });
+    document.body.style.overflow = '';
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-close]')){ closeAllModals(); return; }
+    if(e.target.classList && e.target.classList.contains('zyx-modal')){ closeAllModals(); return; }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeAllModals();
+  });
+
+  /* 创作者弹窗 */
+  var creatorGrid = document.getElementById('zyx-creator-grid');
+  if(creatorGrid){
+    creatorGrid.addEventListener('click', function(e){
+      var card = e.target.closest('.zyx-creator');
+      if(!card) return;
+      document.getElementById('zyx-cm-name').textContent = card.getAttribute('data-name') || '';
+      document.getElementById('zyx-cm-field').textContent = card.getAttribute('data-field') || '';
+      document.getElementById('zyx-cm-desc').textContent = card.getAttribute('data-desc') || '';
+      openModal('zyx-creator-modal');
+    });
+  }
+
+  /* 分享按钮 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-share]');
+    if(!btn) return;
+    var type = btn.getAttribute('data-share');
+    var names = {wechat:'微信', weibo:'微博', qq:'QQ'};
+    showToast('已生成' + (names[type] || '') + '分享提示，可复制链接后粘贴');
+  });
+
+  /* 复制链接 */
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('[data-copy]');
+    if(!btn) return;
+    var link = 'https://islandrawlight.cn/';
+    var done = function(){ showToast('链接已复制，可分享给朋友'); };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(done).catch(function(){
+        showToast('复制失败，请手动选择链接');
+      });
+    }else{
+      try{
+        var ta = document.createElement('textarea');
+        ta.value = link;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        done();
+      }catch(err){
+        showToast('复制失败，请手动选择链接');
+      }
+    }
+  });
+
+  /* 联系表单 */
+  var form = document.getElementById('zyx-contact-form');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = document.getElementById('zyx-form-name');
+      var contact = document.getElementById('zyx-form-contact');
+      var msg = document.getElementById('zyx-form-msg');
+      if(!name.value.trim() || !contact.value.trim() || !msg.value.trim()){
+        showToast('请先填写称呼、联系方式与内容');
+        return;
+      }
+      showToast('信息已提交，我们会在工作日内与你联系');
+      form.reset();
+    });
+  }
+
+  /* 回到顶部 */
+  var backtop = document.getElementById('zyx-backtop');
+  if(backtop){
+    window.addEventListener('scroll', function(){
+      if(window.scrollY > 480){
+        backtop.classList.add('is-show');
+      }else{
+        backtop.classList.remove('is-show');
+      }
+    }, {passive:true});
+    backtop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* 数字滚动 */
+  var statEls = Array.prototype.slice.call(document.querySelectorAll('.zyx-hero-stats strong'));
+  var statOrigin = statEls.map(function(el){ return el.textContent; });
+  var statDone = false;
+  function animateStats(){
+    if(statDone) return;
+    statDone = true;
+    statEls.forEach(function(el, i){
+      var text = statOrigin[i];
+      var match = text.match(/[\d,.]+/);
+      if(!match) return;
+      var target = parseFloat(match[0].replace(/,/g,''));
+      var suffix = text.replace(match[0], '');
+      var decimal = match[0].indexOf('.') > -1 ? 1 : 0;
+      var start = performance.now();
+      var dur = 1100;
+      function step(now){
+        var p = Math.min(1, (now - start) / dur);
+        var eased = 1 - Math.pow(1 - p, 3);
+        var val = target * eased;
+        var out;
+        if(target >= 1000){
+          out = Math.round(val).toLocaleString('en-US');
+        }else{
+          out = val.toFixed(decimal);
+        }
+        el.textContent = out + suffix;
+        if(p < 1) requestAnimationFrame(step);
+        else el.textContent = text;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ animateStats(); io.disconnect(); }
+      });
+    }, {threshold:.4});
+    var statsBox = document.querySelector('.zyx-hero-stats');
+    if(statsBox) io.observe(statsBox);
+  }else{
+    animateStats();
+  }
+
+})();
+</script>
+</body>
+                    </html>
